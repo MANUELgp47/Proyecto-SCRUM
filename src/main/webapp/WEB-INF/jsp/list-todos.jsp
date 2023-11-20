@@ -25,6 +25,8 @@
        <td>${todo.description}</td>
        <td><fmt:formatDate value="${todo.targetDate}"
          pattern="dd/MM/yyyy" /></td>
+         <td><a type="button" class="btn btn-primary"
+        href="/agregado-todo?id=${todo.id}">Asignar</a>
        <td><a type="button" class="btn btn-success"
         href="/update-todo?id=${todo.id}">Editar</a>
        <a type="button" class="btn btn-warning"
