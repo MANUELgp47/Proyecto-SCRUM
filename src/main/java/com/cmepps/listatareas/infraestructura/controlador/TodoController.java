@@ -1,4 +1,4 @@
-package com.cmepps.listatareas.controller;
+package com.cmepps.listatareas.infraestructura.controlador;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.cmepps.listatareas.model.Todo;
-import com.cmepps.listatareas.service.ITodoService;
+import com.cmepps.listatareas.dominio.model.Todo;
+import com.cmepps.listatareas.dominio.puertos.in.ITodoService;
 
 @Controller
 public class TodoController {

@@ -1,4 +1,4 @@
-package com.cmepps.listatareas.model;
+package com.cmepps.listatareas.dominio.model;
 
 import java.util.Date;
 

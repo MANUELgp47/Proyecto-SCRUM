@@ -1,10 +1,10 @@
-package com.cmepps.listatareas.service;
+package com.cmepps.listatareas.dominio.puertos.in;
 
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
-import com.cmepps.listatareas.model.Todo;
+import com.cmepps.listatareas.dominio.model.Todo;
 
 public interface ITodoService {
 

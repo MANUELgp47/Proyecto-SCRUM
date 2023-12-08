@@ -1,4 +1,4 @@
-package com.cmepps.listatareas.service;
+package com.cmepps.listatareas.aplicacion.service;
 
 import java.util.Date;
 import java.util.List;
@@ -7,8 +7,9 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cmepps.listatareas.model.Todo;
-import com.cmepps.listatareas.repository.TodoRepository;
+import com.cmepps.listatareas.dominio.model.Todo;
+import com.cmepps.listatareas.dominio.puertos.in.ITodoService;
+import com.cmepps.listatareas.infraestructura.repository.TodoRepository;
 
 @Service
 public class TodoService implements ITodoService {

@@ -1,4 +1,4 @@
-package com.cmepps.listatareas.controller;
+package com.cmepps.listatareas.infraestructura.controlador;
 
 import javax.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
