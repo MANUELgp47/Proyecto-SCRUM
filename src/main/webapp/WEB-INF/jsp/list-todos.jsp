@@ -32,7 +32,7 @@
                             <td>${todo.prioridad}</td>  
                             <td>
                                 <a type="button" class="btn btn-primary" href="/agregado-todo?id=${todo.id}">Asignar</a>
-                               	<a type="button" class="btn btn-success" href="/update-todo?id=${todo.id}">Finalizar</a>
+                               	<a type="button" class="btn btn-success" href="/finaliza-todo?id=${todo.id}">Finalizar</a>
                                 <a type="button" class="btn btn-success" href="/update-todo?id=${todo.id}">Editar</a>
                                 <a type="button" class="btn btn-warning" href="/delete-todo?id=${todo.id}">Borrar</a>
                             </td>
