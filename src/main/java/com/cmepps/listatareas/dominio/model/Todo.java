@@ -19,19 +19,52 @@ public class Todo {
     private String userName;
     private String description;
     private Date targetDate;
+    private String prioridad;
+    private String duracion;
+    private String nombre;
 
     public Todo() {
         super();
     }
 
-    public Todo(String user, String desc, Date targetDate, boolean isDone) {
+    public Todo(String user, String desc, Date targetDate, String prioridad,String duracion, String nombre, boolean isDone) {
         super();
         this.userName = user;
         this.description = desc;
         this.targetDate = targetDate;
+        this.prioridad = prioridad;
+        this.duracion = duracion;
+        this.nombre = nombre;
+        
     }
 
-    public long getId() {
+    
+    
+    public String getDuracion() {
+		return duracion;
+	}
+
+	public void setDuracion(String duracion) {
+		this.duracion = duracion;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getPrioridad() {
+		return prioridad;
+	}
+
+	public void setPrioridad(String prioridad) {
+		this.prioridad = prioridad;
+	}
+
+	public long getId() {
         return id;
     }
 

@@ -6,6 +6,7 @@ import java.util.Optional;
 
 import com.cmepps.listatareas.dominio.model.Todo;
 
+
 public interface ITodoService {
 
     List < Todo > getTodosByUser(String user);
@@ -14,7 +15,7 @@ public interface ITodoService {
 
     void updateTodo(Todo todo);
 
-    void addTodo(String name, String desc, Date targetDate, boolean isDone);
+    void addTodo(String name, String desc, Date targetDate, String prioridad,String duracion, String nombre, boolean isDone);
 
     void deleteTodo(long id);
 
